@@ -39,7 +39,7 @@ function Hero() {
         />
         <div className="pb-24 pt-16 sm:pb-32 sm:pt-24 md:pb-48 md:pt-32">
           <h1 className="font-display text-balance text-6xl/[0.9] font-medium tracking-tight text-white sm:text-8xl/[0.8] md:text-9xl/[0.8]">
-          Marto, le logiciel pour les commissaires-priseurs le plus puissant du marché.
+          Marto, le logiciel des commissaires-priseurs le plus puissant du marché.
           </h1>
           <p className="mt-8 max-w-lg text-xl/7 font-medium text-gray-950/75 sm:text-2xl/8">
           Partout, à tout moment, gratuit et sans engagement.
