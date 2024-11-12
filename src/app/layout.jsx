@@ -3,7 +3,7 @@ import '@/styles/tailwind.css'
 export const metadata = {
   title: {
     template: '%s - Marto',
-    default: 'Marto - Pour tous',
+    default: 'Marto 🧑‍⚖️',
   },
 }
 

@@ -19,7 +19,7 @@ function CallToAction() {
       Boostez votre productivité et optimisez vos inventaires.
       </p>
       <div className="mt-6">
-        <Button className="w-full sm:w-auto" href="#">
+        <Button className="w-full sm:w-auto" href="https://marto.flutterflow.app" target="_blank">
         Commencez dès maintenant
         </Button>
       </div>
