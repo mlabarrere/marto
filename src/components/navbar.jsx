@@ -13,7 +13,7 @@ import { PlusGrid, PlusGridItem, PlusGridRow } from './plus-grid'
 
 const links = [
   { href: '/pricing', label: 'Prix' },
-  { href: '/company', label: 'Nous' },
+  //{ href: '/company', label: 'Nous' },
   { href: 'https://marto.flutterflow.app', label: 'Connectez-vous' },
 ]
 
