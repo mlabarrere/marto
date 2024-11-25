@@ -18,7 +18,7 @@ import { ChevronRightIcon } from '@heroicons/react/16/solid'
 
 export const metadata = {
   description:
-    'Marto, l\'outil des commissaires-priseurs le plus puissant du marché',
+    'Marto, le logiciel d\'inventaires le plus puissant du marché',
 }
 
 function Hero() {
@@ -41,7 +41,7 @@ function Hero() {
           Marto, le logiciel d'inventaires le plus puissant du marché.
           </h1>
           <p className="mt-8 max-w-lg text-xl/7 font-medium text-gray-950/75 sm:text-2xl/8">
-          Partout, à tout moment, gratuit et sans engagement.
+          Partout, à tout moment, gratuit et sans engagement 🧑‍⚖️
           </p>
           <div className="mt-12 flex flex-col gap-x-6 gap-y-4 sm:flex-row">
             <Button href="https://marto.flutterflow.app" target="_blank">Créer son compte</Button>
@@ -64,7 +64,7 @@ function FeatureSection() {
         </Heading>
         <Screenshot
           width={1216}
-          height={768}
+          //height={768}
           src="/screenshots/app.png"
           className="mt-16 h-[36rem] sm:h-auto sm:w-[76rem]"
         />
@@ -87,7 +87,7 @@ function BentoSection() {
           title="Sections et lots sans limite."
           description="Avec Marto, choisissez de diviser votre inventaire en plusieurs sections, et insérez autant de lots que vous voulez."
           graphic={
-            <div className="h-80 bg-[url(/screenshots/profile.png)] bg-[size:1000px_560px] bg-[left_-109px_top_-112px] bg-no-repeat" />
+            <div className="h-80 bg-[url(/screenshots/Sections_and_lots.png)] bg-[size:600px] bg-no-repeat" />
           }
           fade={['bottom']}
           className="max-lg:rounded-t-4xl lg:col-span-3 lg:rounded-tl-4xl"
@@ -97,34 +97,36 @@ function BentoSection() {
           title="Synchronisation Mobile-Desktop immédiate"
           description="Continuez sur ordinateur ce que vous avez commencé sur mobile, partout et en toute sécurité. Toutes les données sont hébergées à Paris."
           graphic={
-            <div className="absolute inset-0 bg-[url(/screenshots/competitors.png)] bg-[size:1100px_650px] bg-[left_-38px_top_-73px] bg-no-repeat" />
+            <div className="absolute inset-0 bg-[url(/screenshots/mobile-desktop.png)] bg-[size:512px] bg-no-repeat" />
           }
           fade={['bottom']}
           className="lg:col-span-3 lg:rounded-tr-4xl"
         />
         <BentoCard
-          eyebrow="Calculs automatisés"
-          title="Des totaux et sous-totaux instantanés, ajustés en temps réel."
-          description="Pour chaque section, les estimations hautes et basses sont automatiquement calculées en temps réel."
+          eyebrow="Paiements automatisés"
+          title="Facturez vos clients automatiquement par email"
+          description="Grâce à notre partenaire Stripe, facturez et recevez les paiements en temps réel."
           graphic={
-            <div className="flex size-full pl-10 pt-10">
-              <Keyboard highlighted={['LeftCommand', 'LeftShift', 'D']} />
-            </div>
+            <div className="absolute inset-0 bg-[url(/screenshots/invoices.png)] bg-[size:512px] bg-no-repeat" />
           }
           className="lg:col-span-2 lg:rounded-bl-4xl"
         />
         <BentoCard
-          eyebrow="Les clients"
-          title="Relation client analysée"
-          description="Suivez l’évolution des inventaires par client et visualisez leurs paiements."
-          graphic={<LogoCluster />}
+          eyebrow="Partagez"
+          title="Envoyez le lien sécurisé de l'inventaire."
+          description="Générez un lien d'inventaire et envoyez le à votre client, plus besoin de gérer des dizaines de versions, on s'occupe de tout."
+          graphic={
+            <div className="absolute inset-0 bg-[url(/screenshots/lien.png)] bg-[size:512px] bg-no-repeat" />
+          }
           className="lg:col-span-2"
         />
         <BentoCard
-          eyebrow="Recherchez"
-          title="Recherche intuitive"
-          description="Inventaires, lots, clients – retrouvez tout en un instant grâce à notre algorithme."
-          graphic={<Map />}
+          eyebrow="Collaborez"
+          title="Editez l'inventaire à plusieurs"
+          description="Invitez vos collaborateurs dans votre équipe."
+          graphic={
+            <div className="absolute inset-0 bg-[url(/screenshots/plusieurs.png)] bg-[size:512px] bg-no-repeat" />
+          }
           className="max-lg:rounded-b-4xl lg:col-span-2 lg:rounded-br-4xl"
         />
       </div>
@@ -199,7 +201,7 @@ export default function Home() {
           <FeatureSection />
           <BentoSection />
         </div>
-        <DarkBentoSection />
+        {/*<DarkBentoSection />*/}
       </main>
       {/*<Testimonials />*/}
       <Footer />
