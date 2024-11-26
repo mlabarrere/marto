@@ -47,7 +47,7 @@ const tiers = [
       { section: 'Lots', name: 'Catégorisation Drouot ©', value: true },
       { section: 'Lots', name: 'Catégorisation Interenchères ©', value: true },
       { section: 'Lots', name: 'Photos Haute-Définition', value: false },
-      { section: 'Lots', name: 'Gstion des taxes individualisée (TVA, droits d\'auteurs, etc.)', value: false },
+      { section: 'Lots', name: 'Gestion des taxes individualisée (TVA, droits d\'auteurs, etc.)', value: false },
 
       { section: 'Clients', name: 'Suivi des inventaires', value: true },
       { section: 'Clients', name: 'Emailing', value: false },
@@ -58,7 +58,7 @@ const tiers = [
       { section: 'Organisation', name: 'Emailing', value: false },
       { section: 'Organisation', name: 'Paiement online des inventaires', value: false },
 
-      { section: 'Support', name: 'Suport par email', value: false },
+      { section: 'Support', name: 'Support par email', value: false },
       { section: 'Support', name: '7j/7 call center support', value: false },
       { section: 'Support', name: 'Chargé de compte dédié', value: false },
     ],
