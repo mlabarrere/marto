@@ -64,7 +64,7 @@ function FeatureSection() {
         </Heading>
         <Screenshot
           //width={1216}
-          //height={768} // Tu peux enlever cette ligne
+          height={768} // Tu peux enlever cette ligne
           src="/screenshots/app.png"
           className="mt-16 w-full h-auto max-w-full " //sm:max-w-none sm:h-auto sm:w-full
         />
@@ -198,7 +198,7 @@ export default function Home() {
           <LogoCloud />
         </Container>*/}
         <div className="bg-gradient-to-b from-white from-50% to-gray-100 py-32">
-          <FeatureSection />
+        {/*<FeatureSection />*/}
           <BentoSection />
         </div>
         {/*<DarkBentoSection />*/}
