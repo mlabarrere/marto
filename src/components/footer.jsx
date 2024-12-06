@@ -61,8 +61,8 @@ function Sitemap() {
         <SitemapHeading>Company</SitemapHeading>
         <SitemapLinks>
           <SitemapLink href="#">Careers</SitemapLink>
-          <SitemapLink href="/blog">Blog</SitemapLink>
-          <SitemapLink href="/company">Company</SitemapLink>
+          <SitemapLink href="#">Blog</SitemapLink>
+          <SitemapLink href="#">Company</SitemapLink>
         </SitemapLinks>
       </div>
       <div>
