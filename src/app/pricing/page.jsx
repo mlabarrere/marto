@@ -40,7 +40,7 @@ const tiers = [
     features: [
       { section: 'Inventaires', name: 'Quantité', value: 'Illimité' },
       { section: 'Inventaires', name: 'Nombre de lots', value: 500 },
-      { section: 'Inventaires', name: 'Nombre de sections', value: 10 },
+      { section: 'Inventaires', name: 'Nombre de sections', value: 100 },
       { section: 'Inventaires', name: 'Exports PDF', value: true },
       { section: 'Inventaires', name: 'Transformation en vente aux enchères', value: false },
 
@@ -53,7 +53,7 @@ const tiers = [
       { section: 'Clients', name: 'Emailing', value: false },
       { section: 'Clients', name: 'Masquer des clients dans l\'organisation', value: false },
 
-      { section: 'Organisation', name: 'Nombre de membres', value: 2 },
+      { section: 'Organisation', name: 'Nombre de membres', value: 10 },
       { section: 'Organisation', name: 'Masquer des inventaires dans l\'organisation', value: false },
       { section: 'Organisation', name: 'Emailing', value: false },
       { section: 'Organisation', name: 'Paiement online des inventaires', value: false },
@@ -416,8 +416,7 @@ function Testimonial() {
             <figure className="mx-auto flex max-w-xl flex-col gap-16 max-lg:text-center">
               <blockquote>
                 <p className="relative text-3xl tracking-tight text-white before:absolute before:-translate-x-full before:content-['“'] after:absolute after:content-['”'] lg:text-4xl">
-                  Thanks to Marto, we&apos;re finding new leads that we never
-                  would have found with legal methods.
+                  Thanks to Marto
                 </p>
               </blockquote>
               <figcaption className="mt-auto">
