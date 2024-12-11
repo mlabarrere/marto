@@ -29,9 +29,9 @@ const tiers = [
     highlights: [
       { description: 'Nombre d\'inventaires illimités' },
       { description: '500 lots par inventaire' },
-      { description: '10 sections par inventaire' },
+      { description: '100 sections par inventaire' },
       { description: 'Nombre de clients illimités' },
-      { description: 'Deux membres d\'équipe par organisation' },
+      { description: 'Dix membres d\'équipe par organisation' },
       { description: 'Emails', disabled: true },
       { description: 'Paiement online', disabled: true },
       { description: 'Photos HD', disabled: true },
